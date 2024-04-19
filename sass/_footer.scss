@@ -1,0 +1,27 @@
+@use 'variables';
+
+.networks {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	margin-bottom: 20px;
+
+	&__icon {
+		color: #888888;
+		width: 30px;
+		height: 30px;
+		transition: 0.3s ease all;
+
+		&:hover {
+			color: #fff;
+		}
+	}
+}
+
+.credits {
+	font-family: variables.$secondary-font-family;
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 150px;
+	color: #888888;
+}
